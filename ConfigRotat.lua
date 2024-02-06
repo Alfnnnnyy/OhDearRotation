@@ -36,15 +36,6 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
 autobuypack = true
-hargapack = 20000 -- HARGA PACK
-namapack = "world_lock_10_pack" -- NAMA PACK
-MinItemPack = 20 --APABILA JUMLAH ITEM YANG ADA DIDALAM iditempack LEBIH BESAR DARIPADA MinItemPack, MAKA BOTNYA MULAI DROP PACKNYA KE STORAGE!
-maxbuy = 2 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA GEMSNYA MASIH CUKUP!
-iditempack = {242}
-ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
-
----==== PACK SETTINGS ====---
-autobuypack = true
 hargapack = 1000 -- HARGA PACK
 namapack = "ssp_10_pack" -- NAMA PACK
 MinItemPack = 200 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
