@@ -5,7 +5,7 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 
 
 ---===== Bot Off =====---
-Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
+Istirahat = true --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
 UTC_Time = 9 -- WIB 7 / WITA 8 / WIT 9
 JamTidur = {
     "11:45",
