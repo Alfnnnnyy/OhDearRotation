@@ -1,6 +1,6 @@
 ---===== INFO BUYER =====--- 
 InfoLoop = true
-targetinfo = 20 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
+targetinfo = 1 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
 
 
@@ -24,11 +24,11 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 ---===== BASIC SETTINGS =====---
 target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
-delayht = 170 -- DELAY HARVEST
+delayht = 80 -- DELAY HARVEST
 delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 30000 -- DELAY MASUK DOOR
+delayworld = 10000 -- DELAY MASUK DOOR
 delaydrop = 1000 -- JEDA DROP PER ITEM
 delaytrash = 100
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
