@@ -8,10 +8,9 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 Istirahat = true --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
 UTC_Time = 9 -- WIB 7 / WITA 8 / WIT 9
 JamTidur = {
-    "03:00",
     "11:45",
-    "17:45",
-    "23:30" 
+    "13:00",
+    "20:25",
 } -- JAM DAN MENIT BOTNYA OFF (Format 24 Jam)
 DelayTidur = 15 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
 
