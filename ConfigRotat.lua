@@ -1,6 +1,6 @@
 ---===== INFO BUYER =====--- 
 InfoLoop = true
-targetinfo = 1 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
+targetinfo = 5 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
 
 
@@ -10,7 +10,7 @@ UTC_Time = 9 -- WIB 7 / WITA 8 / WIT 9
 JamTidur = {
 "00:00", "11:45", "17:45", "23:30",
 } -- JAM DAN MENIT BOTNYA OFF (Format 24 Jam)
-DelayTidur = 25 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
+DelayTidur = 10 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
 
 ---===== New Variable on v4.8 =====---
 TilePNB = 5 --BOTNYA AKAN PNB 3 TILES!! PILIH 1~5
