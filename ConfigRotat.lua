@@ -8,11 +8,9 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 Istirahat = true --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
 UTC_Time = 9 -- WIB 7 / WITA 8 / WIT 9
 JamTidur = {
-    "11:45",
-    "13:00",
-    "20:25",
+"00:00", "11:45", "17:45", "23:30",
 } -- JAM DAN MENIT BOTNYA OFF (Format 24 Jam)
-DelayTidur = 15 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
+DelayTidur = 25 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
 
 ---===== New Variable on v4.8 =====---
 TilePNB = 5 --BOTNYA AKAN PNB 3 TILES!! PILIH 1~5
@@ -23,23 +21,23 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 ---===== BASIC SETTINGS =====---
 target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
-delayht = 80 -- DELAY HARVEST
+delayht = 170 -- DELAY HARVEST
 delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 10000 -- DELAY MASUK DOOR
-delaydrop = 1000 -- JEDA DROP PER ITEM
-delaytrash = 100
+delayworld = 20000 -- DELAY MASUK DOOR
+delaydrop = 2000 -- JEDA DROP PER ITEM
+delaytrash = 2000
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
 autobuypack = true
-hargapack = 1000 -- HARGA PACK
-namapack = "ssp_10_pack" -- NAMA PACK
-MinItemPack = 200 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+hargapack = 20000 -- HARGA PACK
+namapack = "world_lock_10_pack" -- NAMA PACK
+MinItemPack = 100 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 5 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
-iditempack = {5706}
+iditempack = {242}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)
 
 ---===== Penyusup =====---
