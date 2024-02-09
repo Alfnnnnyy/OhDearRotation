@@ -1,6 +1,6 @@
 ---===== INFO BUYER =====--- 
 InfoLoop = true
-targetinfo = 5 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
+targetinfo = 10 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
 
 
@@ -10,7 +10,7 @@ UTC_Time = 9 -- WIB 7 / WITA 8 / WIT 9
 JamTidur = {
 "00:00", "11:45", "17:45", "23:30",
 } -- JAM DAN MENIT BOTNYA OFF (Format 24 Jam)
-DelayTidur = 5 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
+DelayTidur = 10 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
 
 ---===== New Variable on v4.8 =====---
 TilePNB = 5 --BOTNYA AKAN PNB 3 TILES!! PILIH 1~5
@@ -20,12 +20,12 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 
 ---===== BASIC SETTINGS =====---
 target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
-target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
-delayht = 170 -- DELAY HARVEST
-delayplant = 180 -- DELAY PLANT
+target_seed = 5 -- TARGET MINIMAL SEED UNTUK DITANAM
+delayht = 175 -- DELAY HARVEST
+delayplant = 185 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 20000 -- DELAY MASUK DOOR
+delayworld = 35000 -- DELAY MASUK DOOR
 delaydrop = 2000 -- JEDA DROP PER ITEM
 delaytrash = 2000
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
@@ -35,13 +35,13 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 autobuypack = true
 hargapack = 20000 -- HARGA PACK
 namapack = "world_lock_10_pack" -- NAMA PACK
-MinItemPack = 20 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+MinItemPack = 30 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 5 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
 iditempack = {242}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)
 
 ---===== Penyusup =====---
-JmlPenyusup = 2 --JUMLAH MINIMAL PENYUSUP AGAR BISA KABUR
+JmlPenyusup = 4 --JUMLAH MINIMAL PENYUSUP AGAR BISA KABUR
 delaykabur = 60000 --WAKTU SAAT BOTNYA KABUR KE EXIT WKWK
 Exit = true --JIKA FALSE, BOTNYA NEXT. JIKA TRUE, BOTNYA DIEM DULU DI 
 
