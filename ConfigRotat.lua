@@ -21,8 +21,8 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 ---===== BASIC SETTINGS =====---
 target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 5 -- TARGET MINIMAL SEED UNTUK DITANAM
-delayht = 175 -- DELAY HARVEST
-delayplant = 185 -- DELAY PLANT
+delayht = 160 -- DELAY HARVEST
+delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
 delayworld = 35000 -- DELAY MASUK DOOR
