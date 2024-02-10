@@ -38,7 +38,7 @@ hargapack = 1000 -- HARGA PACK
 namapack = "ssp_10_pack" -- NAMA PACK
 MinItemPack = 200 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 2 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
-iditempack = {5706, 242}
+iditempack = {5706}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
 
 ---===== Penyusup =====---
