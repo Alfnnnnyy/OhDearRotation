@@ -2,6 +2,7 @@
 InfoLoop = true
 targetinfo = 10 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
+FavItem = 5706 --WEBHOOKNYA BAKAL LIHATIN TOTAL FavItem DALAM BACKPACK BOT || TULIS PAKE ID ITEMNYA !
 
 ---==== GACOR KANG ====---
 MinBW = 1000 --APABILA BANWAVE MAKA BOT AKAN OFF
@@ -36,11 +37,11 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
 autobuypack = true
-hargapack = 20000 -- HARGA PACK
-namapack = "world_lock_10_pack" -- NAMA PACK
-MinItemPack = 20 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+hargapack = 1000 -- HARGA PACK
+namapack = "ssp_10_pack" -- NAMA PACK
+MinItemPack = 200 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 5 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
-iditempack = {242}
+iditempack = {5706, 242}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)
 
 ---===== Penyusup =====---
