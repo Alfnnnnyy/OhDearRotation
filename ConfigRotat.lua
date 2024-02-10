@@ -2,6 +2,8 @@
 InfoLoop = true
 targetinfo = 10 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
+MinBW = 700 --APABILA BANWAVE MAKA BOT AKAN OFF
+DurasiOff = 10
 
 ---===== Bot Off =====---
 Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
