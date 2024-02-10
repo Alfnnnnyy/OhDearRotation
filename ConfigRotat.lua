@@ -84,7 +84,7 @@ DelayOffByMod = 60 --MAU RELOGIN BERAPA MENIT SETELAH ADA MODS JOIN?
 --=== NEW VAR ===--
 IntervalPlus = 15 -- JEDA TIAP CALL FUNCTION
 ControlViaDC = true
-TimeRelogBotMatung = 10 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
+TimeRelogBotMatung = 20 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
 HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTAN)
 ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
