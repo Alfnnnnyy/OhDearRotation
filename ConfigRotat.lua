@@ -46,7 +46,7 @@ ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)
 
 ---===== Others =====---
 ignoretile = {} --BOT GAK AKAN TANAM DI TILE YANG DIBERIKAN
-DontTrash = {5706} --BOT GAK AKAN TRASH ITEM YANG DIBERIKAN
+DontTrash = {5706, 242} --BOT GAK AKAN TRASH ITEM YANG DIBERIKAN
 
 ---===== Penyusup =====---
 JmlPenyusup = 4 --JUMLAH MINIMAL PENYUSUP AGAR BISA KABUR
