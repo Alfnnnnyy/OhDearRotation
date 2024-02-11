@@ -2,6 +2,7 @@
 InfoLoop = true
 targetinfo = 5 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
+JedaHW = 7
 
 ---===== Bot Off =====---
 Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
@@ -27,7 +28,7 @@ delayht = 160 -- DELAY HARVEST
 delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 35000 -- DELAY MASUK DOOR
+delayworld = 8000 -- DELAY MASUK DOOR
 delaydrop = 1000 -- JEDA DROP PER ITEM
 delaytrash = 100
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
@@ -67,3 +68,9 @@ ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
 ShowPackInfo = true --bakal tetap ngasih info untuk Pack Hook
 SimplePinghook = true
+
+
+---===== JOIN RANDOM WORLD =====---
+nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
+storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
+delayrandomworld = 10000
