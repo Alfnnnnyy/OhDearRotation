@@ -2,7 +2,7 @@
 InfoLoop = true
 targetinfo = 5 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
-JedaHW = 7
+JedaHW = 10
 
 --==== NEW V1.7 ====--
 
