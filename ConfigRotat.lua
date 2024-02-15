@@ -1,6 +1,6 @@
 ---===== INFO BUYER =====--- 
 InfoLoop = true
-targetinfo = 5 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
+targetinfo = 1 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
 JedaHW = 10
 
