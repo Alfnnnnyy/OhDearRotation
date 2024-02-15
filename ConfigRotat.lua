@@ -88,4 +88,4 @@ SimplePinghook = true
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
 storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
-delayrandomworld = 10000
+delayrandomworld = 8000
