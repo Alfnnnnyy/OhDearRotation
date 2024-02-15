@@ -77,7 +77,7 @@ ID_AcuanDrop_Spec = 880 --BOT AKAN DROP SPECIAL ITEM DI DIRT TREE (3)
 --=== NEW VAR ===--
 IntervalPlus = 10 -- JEDA TIAP CALL FUNCTION
 ControlViaDC = true
-TimeRelogBotMatung = 15 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
+TimeRelogBotMatung = 10 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
 HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTAN)
 ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
@@ -86,6 +86,6 @@ SimplePinghook = true
 
 
 ---===== JOIN RANDOM WORLD =====---
-nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
+nextrandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
 storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
 delayrandomworld = 8000
