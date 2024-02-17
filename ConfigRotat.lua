@@ -59,14 +59,14 @@ iditempack = {3402, 5664}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
 
 ---===== EMOJI =====---
-emot_bot = "<:HuTaoPeek:1095236377408450591>"
-emot_gems = "<:gems:1089014830561759345>"
-emot_pack = "<:packcrate:1156971687062032394>"
-emot_world = "<:WorldList:1156644357135409262>"
-emot_pickaxe = "<:pickaxe:1037281055754944562>"
+emot_bot = "<​:Bothutao:1208255530183688242>"
+emot_gems = "<​:gemssss:1208259674223288330>"
+emot_pack = "<​:huu:1208257779471618068>"
+emot_world = "<​:Huauuu:1208252935494963303>"
+emot_pickaxe = "<​:mauuu:1208260046878675055>"
 emot_wl = "<:WORLDLOCK:1159565273947447346>"
 emot_rank = "<a:kurukuru_seseren:1105870509985509508>"
-emot_tas = "<:agrred:940059592853946388>"
+emot_tas = "<​:Emmyy:1208257800518500413>"
 emot_computer = "<:cpu:994228771014070372>"
 
 ---===== COCOK UNTUK EVENT! =====---
