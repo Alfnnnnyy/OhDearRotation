@@ -5,9 +5,8 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 JedaHW = 10
 
 --==== NEW V1.7 ====--
-
 PNBOtherWorld = true --APABILA INGIN PNB DILUAR FARM
-DurasiWorldPNB = 90 --BERAPA MENIT AGAR BOTNYA GANTI WORLD
+DurasiWorldPNB = 85 --BERAPA MENIT AGAR BOTNYA GANTI WORLD
 NewUpdate = true -- BOT BAKAL LEVELING SEBELUM PNB UNTUK COUNTER NEW PATCH.
 Leveling = true -- BOT AKAN LEVELING MENGGUNAKAN WINDOW, APABILA FALSE BOT AKAN LEVELING DENGAN CARA HARVEST FARM UTAMA!
 RarityLevel = 1 --Botnya bakal Leveling Hingga RarityLevel
@@ -16,7 +15,7 @@ idWorldWL = "Kontol0822"
 WorldWindow= {"B2FE202842204191"} -- SEDIAKAN WINDOW SEED FLOATING UNTUK BOT MULAI LEVELING
 idWorldWindow = "Kontol0822"
 BersihkanWindow = true --BOTNYA KELARIN URUSAN SAMA WINDOW DULU SEBELUM LANJUT KE FARMABLE UTAMA
-MinBW = 700 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
+MinBW = 300 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
 DurasiOff = 7 --BOT AKAN OFF SELAMA (DurasiOff * Semenit)
 
 ---===== Bot Off =====---
@@ -38,12 +37,12 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 ---===== BASIC SETTINGS =====---
 target_block = 200 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 10 -- TARGET MINIMAL SEED UNTUK DITANAM
-DelayRecon = 300000 --JEDA RECONNECT (Ms)
+DelayRecon = 400000 --JEDA RECONNECT (Ms)
 delayht = 160 -- DELAY HARVEST
 delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 20000 -- DELAY MASUK DOOR
+delayworld = 25000 -- DELAY MASUK DOOR
 delaydrop = 1000 -- JEDA DROP PER ITEM
 delaytrash = 100
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
@@ -53,7 +52,7 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 autobuypack = true
 hargapack = 7500 -- HARGA PACK
 namapack = "valentines" -- NAMA PACK
-MinItemPack = 200 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+MinItemPack = 100 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 2 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
 iditempack = {3402, 5664}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
@@ -73,8 +72,18 @@ ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
 ShowPackInfo = true --bakal tetap ngasih info untuk Pack Hook
 SimplePinghook = false
 
-
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
 storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
 delayrandomworld = 8000
+
+---===== EMOJI =====---
+emot_bot = "<​:sadhutao:900841793002815508>"
+emot_gems = "<​:crp_gem:1033488511006941294>"
+emot_pack = "<​:packcrate:1156971687062032394>"
+emot_world = "<​:world:1188883862315614209>"
+emot_pickaxe = "<​:pickaxe:1037281055754944562>"
+emot_wl = ""
+emot_rank = ""
+emot_tas = "<​a:nijicry:1160834139562463252>"
+emot_computer = ""
