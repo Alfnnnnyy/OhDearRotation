@@ -15,7 +15,7 @@ idWorldWL = "Kontol0822"
 WorldWindow= {"B2FE202842204191"} -- SEDIAKAN WINDOW SEED FLOATING UNTUK BOT MULAI LEVELING
 idWorldWindow = "Kontol0822"
 BersihkanWindow = true --BOTNYA KELARIN URUSAN SAMA WINDOW DULU SEBELUM LANJUT KE FARMABLE UTAMA
-MinBW = 300 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
+MinBW = 3000 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
 DurasiOff = 7 --BOT AKAN OFF SELAMA (DurasiOff * Semenit)
 
 ---===== Bot Off =====---
@@ -75,7 +75,7 @@ SimplePinghook = false
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
 storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
-delayrandomworld = 8000
+delayrandomworld = 15000
 
 ---===== EMOJI =====---
 emot_bot = "<​:sadhutao:900841793002815508>"
