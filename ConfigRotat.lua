@@ -5,7 +5,7 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 JedaHW = 10
 
 --==== NEW V1.7 ====--
-PNBOtherWorld = true --APABILA INGIN PNB DILUAR FARM
+PNBOtherWorld = false --APABILA INGIN PNB DILUAR FARM
 DurasiWorldPNB = 85 --BERAPA MENIT AGAR BOTNYA GANTI WORLD
 NewUpdate = true -- BOT BAKAL LEVELING SEBELUM PNB UNTUK COUNTER NEW PATCH.
 Leveling = true -- BOT AKAN LEVELING MENGGUNAKAN WINDOW, APABILA FALSE BOT AKAN LEVELING DENGAN CARA HARVEST FARM UTAMA!
@@ -78,12 +78,12 @@ storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALI
 delayrandomworld = 15000
 
 ---===== EMOJI =====---
-emot_bot = "<​:sadhutao:900841793002815508>"
-emot_gems = "<​:crp_gem:1033488511006941294>"
-emot_pack = "<​:packcrate:1156971687062032394>"
-emot_world = "<​:world:1188883862315614209>"
-emot_pickaxe = "<​:pickaxe:1037281055754944562>"
-emot_wl = ""
-emot_rank = ""
-emot_tas = "<​a:nijicry:1160834139562463252>"
-emot_computer = ""
+emot_bot = "<:Bothutao:1208255530183688242>"
+emot_gems = "<:gemssss:1208259674223288330>"
+emot_pack = "<:huu:1208257779471618068>"
+emot_world = "<:Huauuu:1208252935494963303>"
+emot_pickaxe = "<:mauuu:1208260046878675055>"
+emot_wl = "<:WORLDLOCK:1159565273947447346>"
+emot_rank = "<a:kurukuru_seseren:1105870509985509508>"
+emot_tas = "<:Emmyy:1208257800518500413>"
+emot_computer = "<:cpu:994228771014070372>"
