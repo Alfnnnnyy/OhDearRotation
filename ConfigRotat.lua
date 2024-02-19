@@ -49,10 +49,10 @@ targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
-autobuypack = true
+autobuypack = false
 hargapack = 7500 -- HARGA PACK
 namapack = "valentines" -- NAMA PACK
-MinItemPack = 50 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+MinItemPack = 10 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 2 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
 iditempack = {3402, 5664}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
