@@ -2,7 +2,15 @@
 InfoLoop = true
 targetinfo = 1 --MENGIRIM WEBHOOK SETIAP BERAPA KALI LOOP?
 RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // INI COCOK UNTUK WORLDNYA KEBANYAKAN + KEPANJANGAN AGAR GA BUG WEBHOOK
+
+
+---===== NEW V2 =====---
+MoveRange = 6
+MoveInterval = 200
 JedaHW = 10
+HW_Exit = true
+LanjutPlant = true -- APABILA true MAKA BOTNYA AUTO PLANT KE LISTPLANT | BOT TIDAK AKAN DROP SEED KE STORAGE
+
 
 --==== NEW V1.7 ====--
 PNBOtherWorld = false --APABILA INGIN PNB DILUAR FARM
