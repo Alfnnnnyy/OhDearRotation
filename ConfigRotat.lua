@@ -23,7 +23,7 @@ idWorldWL = "Kontol0822"
 WorldWindow= {"B2FE202842204191"} -- SEDIAKAN WINDOW SEED FLOATING UNTUK BOT MULAI LEVELING
 idWorldWindow = "Kontol0822"
 BersihkanWindow = true --BOTNYA KELARIN URUSAN SAMA WINDOW DULU SEBELUM LANJUT KE FARMABLE UTAMA
-MinBW = 3000 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
+MinBW = 2000 --BOT AKAN OFF KETIKA PLAYER YANG OFF SEBANYAK MinBW
 DurasiOff = 7 --BOT AKAN OFF SELAMA (DurasiOff * Semenit)
 
 ---===== Bot Off =====---
@@ -50,7 +50,7 @@ delayht = 160 -- DELAY HARVEST
 delayplant = 180 -- DELAY PLANT
 delaypnb = 190 -- DELAY PNB
 delayplace = 180 -- DELAY PLACE
-delayworld = 25000 -- DELAY MASUK DOOR
+delayworld = 30000 -- DELAY MASUK DOOR
 delaydrop = 1000 -- JEDA DROP PER ITEM
 delaytrash = 100
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
@@ -58,7 +58,7 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
 autobuypack = true
-hargapack = 75000 -- HARGA PACK
+hargapack = 7500 -- HARGA PACK
 namapack = "valentines" -- NAMA PACK
 MinItemPack = 50 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 15 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
@@ -83,7 +83,7 @@ SimplePinghook = false
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
 storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
-delayrandomworld = 15000
+delayrandomworld = 25000
 
 ---===== EMOJI =====---
 emot_bot = "<:Bothutao:1208255530183688242>"
