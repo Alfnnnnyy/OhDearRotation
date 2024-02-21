@@ -58,9 +58,9 @@ Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
 autobuypack = true
-hargapack = 75000 -- HARGA PACK
+hargapack = 7500 -- HARGA PACK
 namapack = "valentines" -- NAMA PACK
-MinItemPack = 5 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+MinItemPack = 50 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 15 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
 iditempack = {3402, 5664}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
