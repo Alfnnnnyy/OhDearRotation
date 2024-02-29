@@ -5,7 +5,7 @@ RingkasWorldName = false --Jadiin False Jika Gamau Nama Worldnya di Ringkas // I
 
 --==== USEFULL ====--
 PutJammer = true
-SetLevelWorld = 18
+SetLevelWorld = 124
 
 ---===== NEW V2 =====---
 MoveRange = 6
