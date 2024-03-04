@@ -78,7 +78,7 @@ HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTA
 ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
 ShowPackInfo = true --bakal tetap ngasih info untuk Pack Hook
-SimplePinghook = false
+SimplePinghook = true
 
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
