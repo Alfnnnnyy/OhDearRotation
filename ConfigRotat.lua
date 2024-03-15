@@ -10,7 +10,7 @@ SetLevelWorld = 124
 ---===== NEW V2 =====---
 MoveRange = 6
 MoveInterval = 200
-JedaHW = 10
+JedaHW = 7
 HW_Exit = true
 LanjutPlant = true -- APABILA true MAKA BOTNYA AUTO PLANT KE LISTPLANT | BOT TIDAK AKAN DROP SEED KE STORAGE
 
@@ -46,11 +46,11 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 target_block = 190 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 5 -- TARGET MINIMAL SEED UNTUK DITANAM
 DelayRecon = 1000000 --JEDA RECONNECT (Ms)
-delayht = 180 -- DELAY HARVEST
-delayplant = 190 -- DELAY PLANT
+delayht = 190 -- DELAY HARVEST
+delayplant = 200 -- DELAY PLANT
 delaypnb = 200 -- DELAY PNB
 delayplace = 190 -- DELAY PLACE
-delayworld = 27000 -- DELAY MASUK DOOR
+delayworld = 30000 -- DELAY MASUK DOOR
 delaydrop = 1000 -- JEDA DROP PER ITEM
 delaytrash = 1000
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
