@@ -50,9 +50,9 @@ delayht = 190 -- DELAY HARVEST
 delayplant = 200 -- DELAY PLANT
 delaypnb = 200 -- DELAY PNB
 delayplace = 190 -- DELAY PLACE
-delayworld = 30000 -- DELAY MASUK DOOR
-delaydrop = 1000 -- JEDA DROP PER ITEM
-delaytrash = 1000
+delayworld = 35000 -- DELAY MASUK DOOR
+delaydrop = 1500 -- JEDA DROP PER ITEM
+delaytrash = 100
 targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
