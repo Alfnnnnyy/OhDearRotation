@@ -45,7 +45,7 @@ SisaTree = 1 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISA
 ---===== BASIC SETTINGS =====---
 target_block = 190 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 5 -- TARGET MINIMAL SEED UNTUK DITANAM
-DelayRecon = 180000 --JEDA RECONNECT (Ms)
+DelayRecon = 10800000 --JEDA RECONNECT (Ms)
 delayht = 200 -- DELAY HARVEST
 delayplant = 220 -- DELAY PLANT
 delaypnb = 200 -- DELAY PNB
@@ -73,7 +73,7 @@ ID_AcuanDrop_Spec = 880 --BOT AKAN DROP SPECIAL ITEM DI DIRT TREE (3)
 --=== NEW VAR ===--
 IntervalPlus = 10 -- JEDA TIAP CALL FUNCTION
 ControlViaDC = true
-TimeRelogBotMatung = 7 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
+TimeRelogBotMatung = 6 --JIKA TIDAK ADA AKTIVITAS SELAMA 7 MENIT, AUTO RELOG
 HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTAN)
 ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
