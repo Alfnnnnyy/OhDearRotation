@@ -12,7 +12,7 @@ MoveRange = 6
 MoveInterval = 200
 JedaHW = 7
 HW_Exit = true
-LanjutPlant = true -- APABILA true MAKA BOTNYA AUTO PLANT KE LISTPLANT | BOT TIDAK AKAN DROP SEED KE STORAGE
+LanjutPlant = false -- APABILA true MAKA BOTNYA AUTO PLANT KE LISTPLANT | BOT TIDAK AKAN DROP SEED KE STORAGE
 
 --==== NEW V1.7 ====--
 PNBOtherWorld = true --APABILA INGIN PNB DILUAR FARM
@@ -47,7 +47,7 @@ target_block = 190 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 5 -- TARGET MINIMAL SEED UNTUK DITANAM
 DelayRecon = 600000 --JEDA RECONNECT (Ms)
 delayht = 200 -- DELAY HARVEST
-delayplant = 220 -- DELAY PLANT
+delayplant = 190 -- DELAY PLANT
 delaypnb = 200 -- DELAY PNB
 delayplace = 190 -- DELAY PLACE
 delayworld = 35000 -- DELAY MASUK DOOR
@@ -78,11 +78,11 @@ HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTA
 ShowPingHook = true --bakal tetap ngasih info untuk PingHook
 ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
 ShowPackInfo = true --bakal tetap ngasih info untuk Pack Hook
-SimplePinghook = true
+SimplePinghook = false
 
 ---===== JOIN RANDOM WORLD =====---
 nextrandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
-storagerandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
+storagerandom = true --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
 randomworld = {"AWFIOJIOGFWKJFJEWFUIDI", "SFCSOEFCIOSAFJESIAISHUDA", "AWFCJEUIGRAKWEDKFHAWEH", "IOHSAICFHXQIEFIWJDKW", "OSICFHIFWWKHEWOEFWH"} --BEBAS MAU BERAPA WORLD BOTNYA JOIN RANDOM
 delayrandomworld = 35000
 
