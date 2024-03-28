@@ -57,7 +57,7 @@ targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
-autobuypack = true
+autobuypack = false
 hargapack = 25000 -- HARGA PACK
 namapack = "ubiweek_item_ubisoft_chest" -- NAMA PACK
 MinItemPack = 5 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
