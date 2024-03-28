@@ -57,7 +57,7 @@ targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
-autobuypack = true
+autobuypack = false
 hargapack = 45000 -- HARGA PACK
 namapack = "surg_value_pack" -- NAMA PACK
 MinItemPack = 20 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
