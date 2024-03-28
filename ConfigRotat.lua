@@ -57,18 +57,22 @@ targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
 Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
 
 ---==== PACK SETTINGS ====---
-autobuypack = false
-hargapack = 45000 -- HARGA PACK
-namapack = "surg_value_pack" -- NAMA PACK
-MinItemPack = 20 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
+autobuypack = true
+hargapack = 25000 -- HARGA PACK
+namapack = "ubiweek_item_ubisoft_chest" -- NAMA PACK
+MinItemPack = 5 --APABILA JUMLAH ITEM YANG ADA DIDALAM 
 maxbuy = 2 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA 
-iditempack = {1258, 1260, 1262, 1264, 1266, 1268, 1270, 4296, 4308, 4310, 4312, 4314, 4316, 4318, 9310}
+iditempack = {13160}
 ID_AcuanDrop_Pack = 880 --BOT AKAN DROP PACK DI ACUAN Dirt Tree (3)d
 
 ---===== COCOK UNTUK EVENT! =====---
 SpecialItem = {5746, 5742, 5748} --ITEM YANG INGIN DIAMANKAN KE WORLD, COCOK UNTUK HARVEST FEST!
 minSpec = 200 --BOT AKAN DROP ITEM APABILA ITEM TSB MELEBIHI TARGET minSpec
 ID_AcuanDrop_Spec = 880 --BOT AKAN DROP SPECIAL ITEM DI DIRT TREE (3)
+
+---===== Others =====---
+DontTrash = {13160} --BOT GAK AKAN TRASH ITEM YANG DIBERIKAN
+AbaikanTile = {} --BOT GA AKAN PLANT DIATAS IDITEM YANG DIISIKAN
 
 --=== NEW VAR ===--
 IntervalPlus = 10 -- JEDA TIAP CALL FUNCTION
